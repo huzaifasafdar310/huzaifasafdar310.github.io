@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 100" width="240" height="100">
+  <rect x="10" y="10" width="80" height="80" rx="16" fill="#0077B5"/>
+  <circle cx="34" cy="34" r="7" fill="#ffffff"/>
+  <rect x="27" y="46" width="14" height="32" fill="#ffffff"/>
+  <path d="M 50 46 L 63 46 L 63 51 C 66 47 72 45 77 45 C 87 45 91 51 91 63 L 91 78 L 77 78 L 77 65 C 77 60 75 56 70 56 C 65 56 63 60 63 66 L 63 78 L 50 78 Z" fill="#ffffff"/>
+  <text x="105" y="58" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="700" fill="#0077B5">LEARNING</text>
+</svg>

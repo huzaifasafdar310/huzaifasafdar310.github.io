@@ -1,0 +1,83 @@
+.certifications-main {
+  width: 100%;
+}
+
+.basic-certifications {
+  padding: 20px 10px 0px 10px;
+  margin: 0px auto;
+  width: 90%;
+}
+
+.certifications-heading-div {
+  display: flex;
+  align-items: center;
+}
+
+.certifications-heading-div > * {
+  flex: 1;
+  margin-bottom: 30px;
+}
+
+.certifications-heading-img-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.certifications-heading-text-div {
+  text-align: center;
+}
+
+.certifications-heading-text {
+  font-size: 56px;
+  font-weight: 700;
+  font-family: "Google Sans Bold", sans-serif;
+  line-height: 1.1;
+  text-align: center;
+  margin: 0 0 15px 0;
+}
+
+.certifications-header-detail-text {
+  font-size: 20px;
+  line-height: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.certs-cards-div-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
+  margin: 40px auto 20px auto;
+  gap: 20px 0;
+}
+
+@media (max-width: 1380px) {
+  .certifications-heading-text {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .certifications-heading-div {
+    flex-direction: column-reverse;
+  }
+
+  .certifications-heading-text {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  .certifications-header-detail-text {
+    font-size: 16px;
+    line-height: normal;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .certs-cards-div-main {
+    width: 95%;
+  }
+}

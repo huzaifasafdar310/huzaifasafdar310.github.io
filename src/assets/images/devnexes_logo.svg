@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 80" width="240" height="80">
+  <defs>
+    <linearGradient id="devGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+  <polygon points="20,15 48,15 36,40 52,65 24,65 12,40" fill="url(#devGrad)"/>
+  <polygon points="38,15 66,15 54,40 70,65 42,65 30,40" fill="#6366F1" opacity="0.85"/>
+  <text x="82" y="44" font-family="'Inter', 'Segoe UI', sans-serif" font-size="24" font-weight="800" fill="#001C55">DEVNEXES</text>
+  <text x="83" y="60" font-family="'Inter', 'Segoe UI', sans-serif" font-size="10" font-weight="600" letter-spacing="2" fill="#6B7280">DIGITAL SOLUTIONS</text>
+</svg>

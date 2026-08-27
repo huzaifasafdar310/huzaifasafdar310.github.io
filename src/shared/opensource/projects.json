@@ -1,0 +1,230 @@
+{
+  "data": [
+    {
+      "id": "ai-code-review-platform",
+      "name": "AI Code Review Platform",
+      "createdAt": "2025-09-01T00:00:00Z",
+      "url": "https://github.com/huzaifasafdar310",
+      "description": "🛡️ Automated vulnerability scanner & PR reviewer. Combines Semgrep/Bandit static analysis with an LLM (Groq/Llama 3) context-aware pass to flag security flaws, missing error handling, and hardcoded secrets. Features automated PR mode posting review summaries directly to GitHub pull requests.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Groq LLM",
+          "iconifyClass": "simple-icons:openai"
+        },
+        {
+          "name": "GitHub Actions",
+          "iconifyClass": "logos-github-actions"
+        },
+        {
+          "name": "FastAPI",
+          "iconifyClass": "simple-icons:fastapi"
+        }
+      ]
+    },
+    {
+      "id": "cliping-forge-ai",
+      "name": "ClipForge — AI Video-Clipping Pipeline",
+      "createdAt": "2025-05-15T00:00:00Z",
+      "url": "https://github.com/huzaifasafdar310/ClipingForgeAi",
+      "description": "🎬 End-to-end viral short-form video generator (FastAPI, Celery, Cloudflare R2). Ingests long-form video, scores virality with Groq LLaMA 3.3 70B, streams range segments with yt-dlp, burns in word-level kinetic ASS captions with faster-whisper, and automatically publishes 9:16 Shorts to YouTube.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Flask / FastAPI",
+          "iconifyClass": "simple-icons:fastapi"
+        },
+        {
+          "name": "FFmpeg",
+          "iconifyClass": "simple-icons:ffmpeg"
+        },
+        {
+          "name": "Redis",
+          "iconifyClass": "logos-redis"
+        },
+        {
+          "name": "Cloudflare R2",
+          "iconifyClass": "simple-icons:cloudflare"
+        }
+      ]
+    },
+    {
+      "id": "devarchitect-ai",
+      "name": "DevArchitect AI — Coding Assistant",
+      "createdAt": "2025-01-10T00:00:00Z",
+      "url": "https://github.com/huzaifasafdar310",
+      "description": "⚡ SSE-streaming AI coding assistant integrated with the Anthropic Claude API. Supports real-time multi-turn conversation, intelligent architecture suggestions, and server-side key management for concurrent client sessions.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Anthropic Claude",
+          "iconifyClass": "simple-icons:anthropic"
+        },
+        {
+          "name": "FastAPI",
+          "iconifyClass": "simple-icons:fastapi"
+        },
+        {
+          "name": "TypeScript",
+          "iconifyClass": "logos-typescript-icon"
+        }
+      ]
+    },
+    {
+      "id": "ai-resume-analyzer",
+      "name": "AI Resume Analyzer",
+      "createdAt": "2026-05-10T00:00:00Z",
+      "url": "https://github.com/huzaifasafdar310/Ai-resume-analyzer",
+      "description": "🤖 Intelligent resume evaluation and job-matching platform powered by FastAPI and Anthropic Claude API. Parses PDF and text resumes, scores candidates (0–100) across 5 core dimensions, detects missing keywords, and produces actionable career improvement recommendations.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "FastAPI",
+          "iconifyClass": "simple-icons:fastapi"
+        },
+        {
+          "name": "Anthropic Claude",
+          "iconifyClass": "simple-icons:anthropic"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        }
+      ]
+    },
+    {
+      "id": "jobfinder-scraper-3",
+      "name": "JobFinder v3.0 (scraper3.0)",
+      "createdAt": "2026-04-20T00:00:00Z",
+      "url": "https://github.com/huzaifasafdar310/scraper3.0",
+      "description": "⚡ High-throughput asynchronous job aggregation engine built with FastAPI, httpx, and Groq LLM (LLaMA 3.1 8B). Concurrently scrapes 24 global, Gulf/GCC, and regional job boards, expanding search queries, deduplicating with rapidfuzz, and evaluating semantic job relevance in real time.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "FastAPI",
+          "iconifyClass": "simple-icons:fastapi"
+        },
+        {
+          "name": "Groq LLM",
+          "iconifyClass": "simple-icons:openai"
+        },
+        {
+          "name": "HTML5 / CSS3",
+          "iconifyClass": "logos-html-5"
+        }
+      ]
+    },
+    {
+      "id": "drowsiness-detection-system",
+      "name": "Real-Time Drowsiness Detection System",
+      "createdAt": "2024-10-01T00:00:00Z",
+      "url": "https://github.com/huzaifasafdar310",
+      "description": "👁️ OpenCV-based facial landmark tracking system that processes live webcam/video input in real time to monitor driver alertness, eye-aspect-ratio (EAR), and trigger fatigue alert triggers.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "OpenCV",
+          "iconifyClass": "logos-opencv"
+        },
+        {
+          "name": "Computer Vision",
+          "iconifyClass": "simple-icons:opencv"
+        }
+      ]
+    },
+    {
+      "id": "anpr-plate-recognition",
+      "name": "ANPR — Automatic Number Plate Recognition",
+      "createdAt": "2024-07-15T00:00:00Z",
+      "url": "https://github.com/huzaifasafdar310",
+      "description": "🚗 Computer vision pipeline combining YOLOv8 vehicle/license plate detection with OCR post-processing to accurately detect, localize, and extract alphanumeric plate text from video streams.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "YOLOv8",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "OpenCV",
+          "iconifyClass": "logos-opencv"
+        }
+      ]
+    },
+    {
+      "id": "whatsapp-mapfinder",
+      "name": "WhatsApp MapFinder",
+      "createdAt": "2026-03-12T00:00:00Z",
+      "url": "https://github.com/huzaifasafdar310/whatsapp-mapfinder",
+      "description": "📍 Automated lead discovery and market research engine. Uses Playwright to analyze Google Maps across worldwide and Pakistan locations to discover businesses operating without digital web presence, extracting and normalizing phone records for qualification research.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "FastAPI",
+          "iconifyClass": "simple-icons:fastapi"
+        },
+        {
+          "name": "Node.js",
+          "iconifyClass": "logos-nodejs-icon"
+        },
+        {
+          "name": "Playwright",
+          "iconifyClass": "logos-playwright"
+        }
+      ]
+    },
+    {
+      "id": "bulk-sender",
+      "name": "WhatsApp Bulk Sender",
+      "createdAt": "2026-06-24T00:00:00Z",
+      "url": "https://github.com/huzaifasafdar310/bulk-sender",
+      "description": "📨 WhatsApp communication and notification utility built with Node.js, Express, and whatsapp-web.js. Features live QR code session pairing, intelligent queue pacing to manage delivery intervals, and a web interface for communication dispatching.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Node.js",
+          "iconifyClass": "logos-nodejs-icon"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "HTML5",
+          "iconifyClass": "logos-html-5"
+        }
+      ]
+    }
+  ]
+}
