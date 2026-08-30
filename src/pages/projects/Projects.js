@@ -26,10 +26,6 @@ class Projects extends Component {
           <Fade bottom duration={2000} distance="40px">
             <div className="projects-heading-div">
               <div className="projects-heading-img-div">
-                {/* <img
-											src={require(`../../assets/images/${projectsHeader["avatar_image_path"]}`)}
-											alt=""
-										/> */}
                 <ProjectsImg theme={theme} />
               </div>
               <div className="projects-heading-text-div">
@@ -55,7 +51,7 @@ class Projects extends Component {
           })}
         </div>
         <Button
-          text={"More Projects"}
+          text={"More Projects On GitHub"}
           className="project-button"
           href={greeting.githubProfile}
           newTab={true}
@@ -87,8 +83,10 @@ class Projects extends Component {
         ) : null}
 
         <div className="repo-cards-div-main">
-          {publications.data.map((pub) => {
-            return <PublicationCard pub={pub} theme={theme} />;
+          {publications.data.map((pub, idx) => {
+            return (
+              <PublicationCard pub={pub} key={pub.id || idx} theme={theme} />
+            );
           })}
         </div>
 

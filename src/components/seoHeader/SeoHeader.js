@@ -67,9 +67,28 @@ function SeoHeader() {
     <Helmet>
       <title>{seo.title}</title>
       <meta name="description" content={seo.description} />
-      <meta property="og:title" content={seo?.og?.title} />
-      <meta property="og:type" content={seo?.og?.type} />
-      <meta property="og:url" content={seo?.og?.url} />
+      <meta property="og:title" content={seo?.og?.title || seo.title} />
+      <meta property="og:type" content={seo?.og?.type || "website"} />
+      <meta
+        property="og:url"
+        content={seo?.og?.url || "https://huzaifasafdar310.github.io/"}
+      />
+      <meta property="og:description" content={seo.description} />
+      <meta
+        property="og:image"
+        content="https://huzaifasafdar310.github.io/icons/desc.png"
+      />
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:title" content={seo?.og?.title || seo.title} />
+      <meta property="twitter:description" content={seo.description} />
+      <meta
+        property="twitter:image"
+        content="https://huzaifasafdar310.github.io/icons/desc.png"
+      />
+      <link
+        rel="canonical"
+        href={seo?.og?.url || "https://huzaifasafdar310.github.io/"}
+      />
       <script type="application/ld+json">{JSON.stringify(data)}</script>
     </Helmet>
   );

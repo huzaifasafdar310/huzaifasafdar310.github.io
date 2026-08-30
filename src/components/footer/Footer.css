@@ -1,10 +1,99 @@
-.footer-text {
-  text-align: center;
-  /* color: #868e96; */
-  font-weight: bold;
-  font-family: "Google Sans Regular";
+.footer-div {
+  margin-top: 4rem;
+  padding: 3rem 1.5rem 1.5rem 1.5rem;
+  width: 100%;
 }
 
-.footer-div {
-  margin-top: 2rem;
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.footer-brand {
+  flex: 1.2;
+  min-width: 260px;
+}
+
+.footer-title {
+  font-family: "Google Sans Bold", sans-serif;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.footer-desc {
+  font-family: "Google Sans Regular", sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  max-width: 380px;
+}
+
+.footer-links-group {
+  display: flex;
+  gap: 3.5rem;
+  flex-wrap: wrap;
+}
+
+.footer-nav,
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-heading {
+  font-family: "Google Sans Bold", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  letter-spacing: 0.5px;
+}
+
+.footer-nav a,
+.footer-contact a {
+  font-family: "Google Sans Regular", sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.footer-nav a:hover,
+.footer-contact a:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+.footer-bottom {
+  padding-top: 1.5rem;
+  text-align: center;
+}
+
+.footer-text {
+  font-family: "Google Sans Regular", sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .footer-top {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .footer-links-group {
+    gap: 2rem;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .footer-div {
+    margin-top: 2.5rem;
+    padding: 2rem 1rem 1rem 1rem;
+  }
 }

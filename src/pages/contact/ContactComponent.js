@@ -27,7 +27,7 @@ class Contact extends Component {
               <div className="contact-heading-img-div">
                 <img
                   src={require(`../../assets/images/${ContactData["profile_image_path"]}`)}
-                  alt=""
+                  alt="Huzaifa Ali Contact"
                 />
               </div>
               <div className="contact-heading-text-div">
@@ -44,8 +44,25 @@ class Contact extends Component {
                   {ContactData["description"]}
                 </p>
                 <SocialMedia theme={theme} />
-                <div className="resume-btn-div">
-                  <Button text="See My Resume" href="/resume" theme={theme} />
+                <div
+                  className="resume-btn-div"
+                  style={{
+                    display: "flex",
+                    gap: "14px",
+                    flexWrap: "wrap",
+                    marginTop: "20px",
+                  }}
+                >
+                  <Button
+                    text="✉️ Email Me Directly"
+                    href="mailto:huzaifasafdar310@gmail.com"
+                    theme={theme}
+                  />
+                  <Button
+                    text="📄 See My Resume"
+                    href="/resume"
+                    theme={theme}
+                  />
                 </div>
               </div>
             </div>
@@ -64,7 +81,7 @@ class Contact extends Component {
                 </p>
                 <div className="blogsite-btn-div">
                   <Button
-                    text="Visit My Blogsite"
+                    text="Visit Devnexes Studio"
                     newTab={true}
                     href={blogSection.link}
                     theme={theme}
@@ -72,10 +89,6 @@ class Contact extends Component {
                 </div>
               </div>
               <div className="blog-heading-img-div">
-                {/* <img
-											src={require(`../../assets/images/${blogSection["avatar_image_path"]}`)}
-											alt=""
-										/> */}
                 <BlogsImg theme={theme} />
               </div>
             </div>
@@ -83,10 +96,6 @@ class Contact extends Component {
           <Fade bottom duration={1000} distance="40px">
             <div className="address-heading-div">
               <div className="contact-heading-img-div">
-                {/* <img
-											src={require(`../../assets/images/${addressSection["avatar_image_path"]}`)}
-											alt=""
-										/> */}
                 <AddressImg theme={theme} />
               </div>
               <div className="address-heading-text-div">

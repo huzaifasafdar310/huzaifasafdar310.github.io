@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Huzaifa Ali | AI & Backend Developer",
   description:
-    "AI/Backend Developer and Co-Founder of Devnexes Digital Solutions. Focused on agentic AI systems, computer vision, and full-stack automation with Python, FastAPI, and React.",
+    "AI/Backend Developer and Co-Founder of Devnexes Digital Solutions. Focused on agentic AI systems, computer vision, and distributed backend infrastructure with Python, FastAPI, and React.",
   og: {
     title: "Huzaifa Ali Portfolio",
     type: "website",
@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "HuzaifaAli",
   nickname: "AI / Backend Developer & Co-Founder",
   subTitle:
-    "AI/Backend Developer and Co-Founder of Devnexes Digital Solutions, a 2-person engineering studio that has delivered 6+ production applications for real clients. Focused on agentic AI systems, computer vision, and full-stack automation — building LLM-integrated, production-grade tools with Python, FastAPI, and React, from AI code-review pipelines to real-time video processing systems.",
+    "AI/Backend Developer and Co-Founder of Devnexes Digital Solutions. Co-built and shipped 6+ production client applications across enterprise ERPs, computer vision pipelines, and distributed backend microservices (FastAPI, Celery, Redis). Focused on building reliable, production-grade Agentic AI tools and high-throughput automation systems.",
   resumeLink: "/Huzaifa_Ali_Resume.pdf",
   portfolio_repository: "https://github.com/huzaifasafdar310",
   githubProfile: "https://github.com/huzaifasafdar310",
@@ -38,7 +38,7 @@ const socialMediaLinks = [
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/huzaifaali",
+    link: "https://www.linkedin.com/in/huzaifaali-",
     fontAwesomeIcon: "fa-linkedin-in",
     backgroundColor: "#0077B5",
   },
@@ -275,7 +275,7 @@ const competitiveSites = {
       style: {
         color: "#0077B5",
       },
-      profileLink: "https://www.linkedin.com/in/huzaifaali",
+      profileLink: "https://www.linkedin.com/in/huzaifaali-",
     },
     {
       siteName: "Hugging Face",

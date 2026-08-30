@@ -29,26 +29,30 @@ export default function Greeting(props) {
                 {greeting.subTitle}
               </p>
               <SocialMedia theme={theme} />
-              <div className="portfolio-repo-btn-div">
+              <div className="button-greeting-div">
                 <Button
-                  text="⭐ Star Me On Github"
-                  newTab={true}
-                  href={greeting.portfolio_repository}
+                  text="💬 Get In Touch"
+                  href="/contact"
                   theme={theme}
-                  className="portfolio-repo-btn"
+                  className="greeting-cta-btn primary"
+                />
+                <Button
+                  text="📄 View Resume"
+                  href="/resume"
+                  theme={theme}
+                  className="greeting-cta-btn secondary"
+                />
+                <Button
+                  text="⭐ GitHub"
+                  newTab={true}
+                  href={greeting.githubProfile}
+                  theme={theme}
+                  className="greeting-cta-btn outline"
                 />
               </div>
-              {/* <div className="button-greeting-div">
-              <Button text="Contact me" href="#contact" />
-              <Button text="See my resume" newTab={true} href={greeting.resumeLink} />
-            </div> */}
             </div>
           </div>
           <div className="greeting-image-div">
-            {/* <img
-							alt="saad sitting on table"
-							src={require("../../assets/images/feelingProud.svg")}
-						></img> */}
             <FeelingProud theme={theme} />
           </div>
         </div>

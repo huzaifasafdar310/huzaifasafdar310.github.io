@@ -34,7 +34,14 @@
 
 .button-greeting-div {
   display: flex;
-  margin-top: 20px;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 24px;
+  align-items: center;
+}
+
+.greeting-cta-btn {
+  display: inline-block;
 }
 
 .greeting-text {

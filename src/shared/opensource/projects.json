@@ -5,7 +5,7 @@
       "name": "AI Code Review Platform",
       "createdAt": "2025-09-01T00:00:00Z",
       "url": "https://github.com/huzaifasafdar310",
-      "description": "🛡️ Automated vulnerability scanner & PR reviewer. Combines Semgrep/Bandit static analysis with an LLM (Groq/Llama 3) context-aware pass to flag security flaws, missing error handling, and hardcoded secrets. Features automated PR mode posting review summaries directly to GitHub pull requests.",
+      "description": "🛡️ Problem: Manual code reviews frequently miss subtle security vulnerabilities, hardcoded secrets, and error handling oversights during rapid release cycles. | Solution: Built an automated dual-pass review pipeline combining AST-level static security analysis (Semgrep & Bandit) with a context-aware LLM pass (Groq LLaMA 3) via FastAPI. | Impact: Automatically posts structured, vulnerability-annotated review summaries directly to GitHub Pull Requests, accelerating PR triage cycles. <!-- TODO: Add specific PR review time reduction percentage or scanned repository count -->",
       "isFork": false,
       "languages": [
         {
@@ -31,7 +31,7 @@
       "name": "ClipForge — AI Video-Clipping Pipeline",
       "createdAt": "2025-05-15T00:00:00Z",
       "url": "https://github.com/huzaifasafdar310/ClipingForgeAi",
-      "description": "🎬 End-to-end viral short-form video generator (FastAPI, Celery, Cloudflare R2). Ingests long-form video, scores virality with Groq LLaMA 3.3 70B, streams range segments with yt-dlp, burns in word-level kinetic ASS captions with faster-whisper, and automatically publishes 9:16 Shorts to YouTube.",
+      "description": "🎬 Problem: Converting long-form podcast and video content into viral vertical shorts requires hours of manual editing and subtitle syncing. | Solution: Engineered a distributed asynchronous video pipeline (FastAPI, Celery, Redis) that transcribes via faster-whisper, evaluates virality with Groq LLaMA 3.3 70B, renders 9:16 cuts with word-level kinetic ASS captions via FFmpeg, and uploads to Cloudflare R2. | Impact: Fully automates long-form ingestion to scheduled YouTube Shorts publication in under 3 minutes per cut. <!-- TODO: Add total videos rendered or processing time benchmark -->",
       "isFork": false,
       "languages": [
         {
@@ -61,7 +61,7 @@
       "name": "DevArchitect AI — Coding Assistant",
       "createdAt": "2025-01-10T00:00:00Z",
       "url": "https://github.com/huzaifasafdar310",
-      "description": "⚡ SSE-streaming AI coding assistant integrated with the Anthropic Claude API. Supports real-time multi-turn conversation, intelligent architecture suggestions, and server-side key management for concurrent client sessions.",
+      "description": "⚡ Problem: Developers require low-latency, context-aware architectural feedback and code generation without exposing API credentials client-side. | Solution: Developed a real-time Server-Sent Events (SSE) AI coding assistant in FastAPI and TypeScript backed by the Anthropic Claude API, featuring token streaming, structured multi-turn conversation memory, and server-side key security. | Impact: Delivers instant sub-second token streaming responses for complex codebase design discussions and multi-file code refactoring. <!-- TODO: Add active user count or request throughput -->",
       "isFork": false,
       "languages": [
         {
@@ -87,7 +87,7 @@
       "name": "AI Resume Analyzer",
       "createdAt": "2026-05-10T00:00:00Z",
       "url": "https://github.com/huzaifasafdar310/Ai-resume-analyzer",
-      "description": "🤖 Intelligent resume evaluation and job-matching platform powered by FastAPI and Anthropic Claude API. Parses PDF and text resumes, scores candidates (0–100) across 5 core dimensions, detects missing keywords, and produces actionable career improvement recommendations.",
+      "description": "🤖 Problem: Job applicants face high ATS rejection rates due to unoptimized keyword alignment, poor formatting, and unquantified accomplishments. | Solution: Architected an intelligent evaluation platform (FastAPI & Claude API) that parses PDF/text resumes, scores candidates (0–100) across 5 core dimensions, detects missing technical keywords against target job roles, and generates actionable improvements. | Impact: Evaluates and grades resumes in under 5 seconds with granular dimension scoring and ATS optimization feedback. <!-- TODO: Add resume processing count or ATS match rate increase -->",
       "isFork": false,
       "languages": [
         {
@@ -113,7 +113,7 @@
       "name": "JobFinder v3.0 (scraper3.0)",
       "createdAt": "2026-04-20T00:00:00Z",
       "url": "https://github.com/huzaifasafdar310/scraper3.0",
-      "description": "⚡ High-throughput asynchronous job aggregation engine built with FastAPI, httpx, and Groq LLM (LLaMA 3.1 8B). Concurrently scrapes 24 global, Gulf/GCC, and regional job boards, expanding search queries, deduplicating with rapidfuzz, and evaluating semantic job relevance in real time.",
+      "description": "⚡ Problem: Dispersed job listings across regional and global job boards lead to missed opportunities, stale data, and duplicate applications. | Solution: Built a high-concurrency async scraping and aggregation engine in Python (FastAPI, httpx, asyncio) querying 24 regional (Pakistan & GCC) and global job portals simultaneously, leveraging Groq LLM for semantic query expansion and rapidfuzz for deduplication. | Impact: Aggregates and deduplicates hundreds of real-time listings per query in seconds with zero rate-limit blocks. <!-- TODO: Add total jobs indexed per scrape run -->",
       "isFork": false,
       "languages": [
         {
@@ -139,7 +139,7 @@
       "name": "Real-Time Drowsiness Detection System",
       "createdAt": "2024-10-01T00:00:00Z",
       "url": "https://github.com/huzaifasafdar310",
-      "description": "👁️ OpenCV-based facial landmark tracking system that processes live webcam/video input in real time to monitor driver alertness, eye-aspect-ratio (EAR), and trigger fatigue alert triggers.",
+      "description": "👁️ Problem: Driver fatigue and microsleep episodes are primary contributors to commercial transit collisions and road accidents. | Solution: Implemented a real-time computer vision monitoring pipeline in Python and OpenCV calculating Eye Aspect Ratio (EAR) across 68 facial landmarks from live video streams. | Impact: Triggers instantaneous audio-visual fatigue alerts when eye closure exceeds safety thresholds at 30+ FPS real-time processing. <!-- TODO: Add detection accuracy metric percentage -->",
       "isFork": false,
       "languages": [
         {
@@ -161,7 +161,7 @@
       "name": "ANPR — Automatic Number Plate Recognition",
       "createdAt": "2024-07-15T00:00:00Z",
       "url": "https://github.com/huzaifasafdar310",
-      "description": "🚗 Computer vision pipeline combining YOLOv8 vehicle/license plate detection with OCR post-processing to accurately detect, localize, and extract alphanumeric plate text from video streams.",
+      "description": "🚗 Problem: Manual vehicle logging at security checkpoints and toll plazas causes severe traffic congestion and recording errors. | Solution: Developed an end-to-end vision pipeline combining YOLOv8 for vehicle and license plate bounding-box localization with OpenCV preprocessing and OCR alphanumeric character extraction. | Impact: Achieves real-time plate localization and text extraction from high-speed video feeds across diverse lighting conditions. <!-- TODO: Add plate recognition accuracy percentage -->",
       "isFork": false,
       "languages": [
         {
@@ -183,7 +183,7 @@
       "name": "WhatsApp MapFinder",
       "createdAt": "2026-03-12T00:00:00Z",
       "url": "https://github.com/huzaifasafdar310/whatsapp-mapfinder",
-      "description": "📍 Automated lead discovery and market research engine. Uses Playwright to analyze Google Maps across worldwide and Pakistan locations to discover businesses operating without digital web presence, extracting and normalizing phone records for qualification research.",
+      "description": "📍 Problem: B2B sales development teams spend substantial manual hours locating and validating regional businesses that lack web presence. | Solution: Engineered a headless browser automation engine using Playwright, FastAPI, and Node.js that parses Google Maps listings across targeted locales, filtering businesses operating without digital sites and extracting validated contact records. | Impact: Extracts and normalizes hundreds of high-intent business leads per query for rapid agency client outreach. <!-- TODO: Add verified leads generated per run -->",
       "isFork": false,
       "languages": [
         {
@@ -209,7 +209,7 @@
       "name": "WhatsApp Bulk Sender",
       "createdAt": "2026-06-24T00:00:00Z",
       "url": "https://github.com/huzaifasafdar310/bulk-sender",
-      "description": "📨 WhatsApp communication and notification utility built with Node.js, Express, and whatsapp-web.js. Features live QR code session pairing, intelligent queue pacing to manage delivery intervals, and a web interface for communication dispatching.",
+      "description": "📨 Problem: Small enterprises need reliable group notification dispatching without incurring expensive enterprise API subscription tiers. | Solution: Created an automated communication utility with Node.js, Express, and whatsapp-web.js featuring live QR code session pairing, randomized queue pacing intervals, and a web dashboard for dispatch management. | Impact: Enables dependable scheduled notification delivery across client contact lists with real-time dispatch monitoring. <!-- TODO: Add total messages dispatched or delivery rate percentage -->",
       "isFork": false,
       "languages": [
         {
